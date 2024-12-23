@@ -47,7 +47,7 @@ const updateTime = () => {
 };
 
 
-// Call updateTime to set clock hands every second
+// Call updateTime to set clock hands every second one
 setInterval(updateTime, 1000);
 
 // Call updateTime function on page load
