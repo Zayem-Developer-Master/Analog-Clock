@@ -46,6 +46,7 @@ const updateTime = () => {
   hourHand.style.transform = `rotate(${hrToDeg}deg)`;
 };
 
+
 // Call updateTime to set clock hands every second
 setInterval(updateTime, 1000);
 
